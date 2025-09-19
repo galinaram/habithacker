@@ -17,5 +17,5 @@ public class Habit {
     String name;
     String description;
     @Column (nullable = false)
-    String targetCount;
+    int targetCount;
 }
